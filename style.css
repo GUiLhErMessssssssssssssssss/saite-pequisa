@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Sofadi+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}:root{
+    --1: #000000ff;
+    --2: #14213dff;
+    --3: #fca311ff;
+    --4: #e5e5e5ff;
+    --fonte-titulo: "Gowun Batang", serif;
+    --fonte-texto:"Sofadi One", system-ui;
+}
+body{
+    background-color: var(--3);
+    font-family: var(--1);
+    color:var (--4)
+    heligh:100vh;
+}
+
+header{
+    background-color: var(--2);
+    text-align: center;
+}
+
+h1{
+    font-family: var(--1);
+    font-size: 3rem;
+    color: var(--3);
+    padding: :1.5rem 0;
+}
